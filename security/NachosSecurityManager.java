@@ -45,13 +45,6 @@ public class NachosSecurityManager extends SecurityManager {
      * Install this security manager.
      */
     public void enable() {
-	Lib.assertTrue(this != System.getSecurityManager());
-	
-	doPrivileged(new Runnable() {
-	    public void run() {
-		System.setSecurityManager(NachosSecurityManager.this);
-	    }
-	});
     }
 
     private class PrivilegeProvider extends Privilege {

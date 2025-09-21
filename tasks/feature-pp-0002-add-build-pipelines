@@ -1,0 +1,7 @@
+* read rules.md and arcitecture.md first to summarise 
+
+* Create build pipeline, so it would run on every pull/merge request on github
+
+* create a build pipeline, that would run on on each commit 
+
+* both pipelines would run some tests to ensure nachos os is running on github
