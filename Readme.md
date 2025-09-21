@@ -1,5 +1,6 @@
 # NachOS
 [Click here for Project Architecture](./ARCHITECTURE.md)
+[Click here for vibe coding rules](./rules.md)
 
 Normally, an operating system runs on the machine that it manages. Nachos is unusual in that the operating system runs "side-by-side" with the simulated machine.
 
