@@ -1,4 +1,5 @@
 # NachOS
+[Click here for Project Architecture](./ARCHITECTURE.md)
 
 Normally, an operating system runs on the machine that it manages. Nachos is unusual in that the operating system runs "side-by-side" with the simulated machine.
 
@@ -112,3 +113,5 @@ You should see something like this
 ![mips](ReadmeImages/mips.gif)
 
 After running this command you should see bunch of *.coff and *.c files.
+
+
